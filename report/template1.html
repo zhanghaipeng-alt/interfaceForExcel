@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>接口测试报告</title>
+      <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
+      <style>
+          section>* {text-align: center;}
+          section>p>button {width: 70%;margin-top: 5px;margin-bottom: 2px;}
+          section>p {font-size: 20px;color: teal;}
+          li.layui-this {background-color:white;}
+      </style>
+    </head>
+
+    <body class="layui-layout-body">
+        <h3>name</h3>
+        {% for i in infos %}
+            <p>{{i}}</p>
+            {% endfor %}
+    </body>
+    </html>
